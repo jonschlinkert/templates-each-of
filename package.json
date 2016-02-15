@@ -1,7 +1,7 @@
 {
   "name": "templates-each-of",
   "description": "Assemble plugin that adds an async `eachOf` method for rendering each template in a collection. Uses the `.eachOf` method from the async library.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/assemble/templates-each-of",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "assemble/templates-each-of",
@@ -54,6 +54,7 @@
     "related": {
       "list": [
         "assemble",
+        "templates",
         "assemble-render-file",
         "assemble-render-string",
         "assemble-streams"

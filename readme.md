@@ -179,6 +179,7 @@ list.eachOf(function(item, key, next) {
 * [assemble-render-file](https://www.npmjs.com/package/assemble-render-file): Assemble plugin for rendering views in a vinyl pipeline. | [homepage](https://github.com/jonschlinkert/assemble-render-file)
 * [assemble-render-string](https://www.npmjs.com/package/assemble-render-string): Assemble plugin that adds a `.renderString` method for rendering a string with any registered engine. | [homepage](https://github.com/jonschlinkert/assemble-render-string)
 * [assemble-streams](https://www.npmjs.com/package/assemble-streams): Assemble pipeline plugin for pushing a view collection into a vinyl stream. | [homepage](https://github.com/assemble/assemble-streams)
+* [templates](https://www.npmjs.com/package/templates): System for creating and managing template collections, and rendering templates with any node.js template engine.… [more](https://www.npmjs.com/package/templates) | [homepage](https://github.com/jonschlinkert/templates)
 
 ## Generate docs
 
