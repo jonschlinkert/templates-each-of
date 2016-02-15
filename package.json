@@ -1,0 +1,66 @@
+{
+  "name": "templates-each-of",
+  "description": "Assemble plugin that adds an async `eachOf` method for rendering each template in a collection. Uses the `.eachOf` method from the async library.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/assemble/templates-each-of",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "assemble/templates-each-of",
+  "bugs": {
+    "url": "https://github.com/assemble/templates-each-of/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^1.5.2"
+  },
+  "devDependencies": {
+    "assemble-core": "^0.12.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-format-md": "^0.1.5",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "*"
+  },
+  "keywords": [
+    "assemble",
+    "assembleplugin",
+    "engine",
+    "plugin",
+    "render",
+    "string",
+    "templates"
+  ],
+  "verb": {
+    "layout": "default",
+    "data": {
+      "alias": "eachOf"
+    },
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "assemble",
+        "assemble-render-file",
+        "assemble-render-string",
+        "assemble-streams"
+      ]
+    },
+    "reflinks": [
+      "async"
+    ]
+  }
+}
